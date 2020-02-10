@@ -33,11 +33,13 @@ public class Conway {
                 try {
                     if (grid[i][j + 1] == "#") {
                         aliveNeighbors+=1;
+                        //Right Neighbor
                     }
                 }catch (ArrayIndexOutOfBoundsException ignore){}
                 try {
                     if (grid[i][j - 1] == "#") {
                         aliveNeighbors+=1;
+                        //Left Neighbor
                     }
                 }catch (ArrayIndexOutOfBoundsException ignore){
 
@@ -46,6 +48,7 @@ public class Conway {
                 try {
                 if(grid[i+1][j]=="#"){
                     aliveNeighbors+=1;
+                    //Bottom Neigbor
                 }
                 }catch (ArrayIndexOutOfBoundsException ignore){
 
@@ -54,6 +57,7 @@ public class Conway {
                 try {
                 if(grid[i-1][j]=="#"){
                     aliveNeighbors+=1;
+                    //Top Neighbor
                 }
                 }catch (ArrayIndexOutOfBoundsException ignore){
 
@@ -62,6 +66,7 @@ public class Conway {
                 try{
                 if(grid[i+1][j+1]=="#"){
                     aliveNeighbors+=1;
+                    //aliveNeighbor in the bottom right
                 }
                 }catch (ArrayIndexOutOfBoundsException ignore){
 
@@ -69,6 +74,7 @@ public class Conway {
                 try {
                 if (grid[i-1][j-1]=="#"){
                     aliveNeighbors+=1;
+                    //Top left Neighbor
                 }
                 }catch (ArrayIndexOutOfBoundsException ignore){
 
@@ -77,6 +83,8 @@ public class Conway {
                 try {
                 if (grid[i+1][j-1]=="#"){
                     aliveNeighbors+=1;
+                    
+                    //Bottom left Neighbor
                 }
                 }catch (ArrayIndexOutOfBoundsException ignore){
 
@@ -85,6 +93,8 @@ public class Conway {
                 try {
                 if (grid[i-1][j+1]=="#"){
                     aliveNeighbors+=1;
+                    
+                    //Top right Neighbor
                 }
                 }catch (ArrayIndexOutOfBoundsException ignore){
 
