@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ConwayTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-10T12:41:59" hostname="ngwako-Inspiron-15-3567" time="0.043">
+  <properties/>
+  <testcase name="showBoard()" classname="ConwayTest" time="0.043"/>
+  <system-out><![CDATA[Input
+[+, +, #, +, +, +, +, +, +, +]
+[+, +, #, #, #, +, +, +, +, +]
+[+, +, +, +, +, +, +, +, +, +]
+[+, +, +, +, +, +, +, +, +, +]
+[+, +, +, +, +, +, +, +, +, +]
+[+, +, +, +, +, +, +, +, +, +]
+[+, +, +, +, +, +, +, +, +, +]
+[+, +, +, +, +, +, +, +, +, +]
+[+, +, +, +, +, +, +, +, +, +]
+[+, +, +, +, +, +, +, +, +, +]
+
+ Next Generation
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
